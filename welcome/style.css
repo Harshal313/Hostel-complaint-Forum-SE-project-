@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 50px;
+    padding: 0 15px;
+    position: fixed;
+    width: calc(100vw - 30px);
+    /* z-index: 1; */
+
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    color: white;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin: 0 7px;
+}
+body{
+    background-color: cadetblue;
+}
+.welcome{
+    padding-top: 50px; 
+    height: cal(100vh - 50px);   
+}
+footer{
+    display: inline-flex;
+    
+}
